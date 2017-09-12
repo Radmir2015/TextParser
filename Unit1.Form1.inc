@@ -66,10 +66,10 @@ procedure InitializeComponent;
         // 
         // textBox2
         // 
-        self.textBox2.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
+        self.textBox2.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
         self.textBox2.Location := new System.Drawing.Point(118, 37);
         self.textBox2.Name := 'textBox2';
-        self.textBox2.Size := new System.Drawing.Size(154, 21);
+        self.textBox2.Size := new System.Drawing.Size(154, 22);
         self.textBox2.TabIndex := 2;
         // 
         // label3
@@ -84,10 +84,10 @@ procedure InitializeComponent;
         // 
         // textBox3
         // 
-        self.textBox3.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
+        self.textBox3.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
         self.textBox3.Location := new System.Drawing.Point(118, 63);
         self.textBox3.Name := 'textBox3';
-        self.textBox3.Size := new System.Drawing.Size(154, 21);
+        self.textBox3.Size := new System.Drawing.Size(154, 22);
         self.textBox3.TabIndex := 3;
         // 
         // button1
@@ -112,10 +112,10 @@ procedure InitializeComponent;
         // 
         // textBox4
         // 
-        self.textBox4.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
+        self.textBox4.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
         self.textBox4.Location := new System.Drawing.Point(118, 89);
         self.textBox4.Name := 'textBox4';
-        self.textBox4.Size := new System.Drawing.Size(154, 21);
+        self.textBox4.Size := new System.Drawing.Size(154, 22);
         self.textBox4.TabIndex := 4;
         // 
         // progressBar1
@@ -127,10 +127,10 @@ procedure InitializeComponent;
         // 
         // textBox1
         // 
-        self.textBox1.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
+        self.textBox1.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
         self.textBox1.Location := new System.Drawing.Point(118, 11);
         self.textBox1.Name := 'textBox1';
-        self.textBox1.Size := new System.Drawing.Size(154, 21);
+        self.textBox1.Size := new System.Drawing.Size(154, 22);
         self.textBox1.TabIndex := 1;
         self.textBox1.Text := '*';
         // 
@@ -300,18 +300,18 @@ procedure InitializeComponent;
         // 
         // textBox5
         // 
-        self.textBox5.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
+        self.textBox5.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
         self.textBox5.Location := new System.Drawing.Point(118, 170);
         self.textBox5.Name := 'textBox5';
-        self.textBox5.Size := new System.Drawing.Size(154, 21);
+        self.textBox5.Size := new System.Drawing.Size(154, 22);
         self.textBox5.TabIndex := 10;
         // 
         // textBox6
         // 
-        self.textBox6.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
+        self.textBox6.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
         self.textBox6.Location := new System.Drawing.Point(150, 230);
         self.textBox6.Name := 'textBox6';
-        self.textBox6.Size := new System.Drawing.Size(122, 21);
+        self.textBox6.Size := new System.Drawing.Size(122, 22);
         self.textBox6.TabIndex := 15;
         self.textBox6.Text := '.';
         // 

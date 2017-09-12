@@ -212,7 +212,10 @@ end;
 
 function delims(text: string; mode: integer := 1): array of string;
 begin
-  Result := (Ecran(text).Item1 + TakeDelims(RepairBrackets(EditBrackets(Ecran(text).Item2)), mode));
+  if RepairBrackets(EditBrackets(Ecran(text).Item2)).Replace(' ', '').length > 0 then
+    Result := (Ecran(text).Item1 + TakeDelims(RepairBrackets(EditBrackets(Ecran(text).Item2)), mode))
+  else
+    Result := (Ecran(text).Item1);
 end;
 
 // 26px разница в height полей
