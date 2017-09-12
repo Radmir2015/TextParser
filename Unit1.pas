@@ -56,6 +56,9 @@ type
     label16: &Label;
     checkBox9: CheckBox;
     label17: &Label;
+    label18: &Label;
+    textBox8: TextBox;
+    label19: &Label;
     progressBar1: ProgressBar;
     {$include Unit1.Form1.inc}
   {$endregion FormDesigner}
@@ -496,6 +499,7 @@ begin
   if not(checks[6]) then
   for var i := 0 to delim.length - 1 do
   delim[i] += ' ';
+  textBox8.Text := delim.Select(x -> x.trim()).JoinIntoString(', ');
   //var t := thread(writeSeqInFile(readyArray, textBox3.Text, checks, delim, endsym, savefilename, textBox4.Text, progressBar1));
   //t.IsBackground := true;
   //t.Start;
