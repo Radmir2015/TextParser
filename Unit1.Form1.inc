@@ -44,6 +44,7 @@ procedure InitializeComponent;
         self.label18 := new System.Windows.Forms.Label();
         self.textBox8 := new System.Windows.Forms.TextBox();
         self.label19 := new System.Windows.Forms.Label();
+        self.textBox9 := new System.Windows.Forms.TextBox();
         self.groupBox1.SuspendLayout();
         self.SuspendLayout();
         // 
@@ -444,7 +445,7 @@ procedure InitializeComponent;
         self.textBox8.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
         self.textBox8.Location := new System.Drawing.Point(118, 196);
         self.textBox8.Name := 'textBox8';
-        self.textBox8.Size := new System.Drawing.Size(154, 22);
+        self.textBox8.Size := new System.Drawing.Size(74, 22);
         self.textBox8.TabIndex := 21;
         // 
         // label19
@@ -457,9 +458,18 @@ procedure InitializeComponent;
         self.label19.Text := 'Посл. обработ.:';
         self.label19.TextAlign := System.Drawing.ContentAlignment.MiddleCenter;
         // 
+        // textBox9
+        // 
+        self.textBox9.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
+        self.textBox9.Location := new System.Drawing.Point(198, 196);
+        self.textBox9.Name := 'textBox9';
+        self.textBox9.Size := new System.Drawing.Size(74, 22);
+        self.textBox9.TabIndex := 22;
+        // 
         // Form1
         // 
         self.ClientSize := new System.Drawing.Size(284, 421);
+        self.Controls.Add(self.textBox9);
         self.Controls.Add(self.label19);
         self.Controls.Add(self.label18);
         self.Controls.Add(self.textBox8);
