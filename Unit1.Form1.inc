@@ -41,7 +41,6 @@ procedure InitializeComponent;
         self.label16 := new System.Windows.Forms.Label();
         self.checkBox9 := new System.Windows.Forms.CheckBox();
         self.label17 := new System.Windows.Forms.Label();
-        self.label18 := new System.Windows.Forms.Label();
         self.textBox8 := new System.Windows.Forms.TextBox();
         self.label19 := new System.Windows.Forms.Label();
         self.textBox9 := new System.Windows.Forms.TextBox();
@@ -96,7 +95,7 @@ procedure InitializeComponent;
         // 
         // button1
         // 
-        self.button1.Location := new System.Drawing.Point(197, 340);
+        self.button1.Location := new System.Drawing.Point(197, 356);
         self.button1.Name := 'button1';
         self.button1.Size := new System.Drawing.Size(75, 23);
         self.button1.TabIndex := 18;
@@ -124,7 +123,7 @@ procedure InitializeComponent;
         // 
         // progressBar1
         // 
-        self.progressBar1.Location := new System.Drawing.Point(12, 340);
+        self.progressBar1.Location := new System.Drawing.Point(12, 356);
         self.progressBar1.Name := 'progressBar1';
         self.progressBar1.Size := new System.Drawing.Size(174, 23);
         self.progressBar1.TabIndex := 3;
@@ -144,7 +143,7 @@ procedure InitializeComponent;
         // 
         // button2
         // 
-        self.button2.Location := new System.Drawing.Point(12, 284);
+        self.button2.Location := new System.Drawing.Point(12, 300);
         self.button2.Name := 'button2';
         self.button2.Size := new System.Drawing.Size(100, 23);
         self.button2.TabIndex := 16;
@@ -155,7 +154,7 @@ procedure InitializeComponent;
         // label5
         // 
         self.label5.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.label5.Location := new System.Drawing.Point(118, 284);
+        self.label5.Location := new System.Drawing.Point(118, 300);
         self.label5.Name := 'label5';
         self.label5.Size := new System.Drawing.Size(154, 20);
         self.label5.TabIndex := 1;
@@ -168,7 +167,7 @@ procedure InitializeComponent;
         // 
         // button3
         // 
-        self.button3.Location := new System.Drawing.Point(12, 312);
+        self.button3.Location := new System.Drawing.Point(12, 328);
         self.button3.Name := 'button3';
         self.button3.Size := new System.Drawing.Size(100, 23);
         self.button3.TabIndex := 17;
@@ -179,7 +178,7 @@ procedure InitializeComponent;
         // label6
         // 
         self.label6.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.label6.Location := new System.Drawing.Point(118, 312);
+        self.label6.Location := new System.Drawing.Point(118, 328);
         self.label6.Name := 'label6';
         self.label6.Size := new System.Drawing.Size(154, 20);
         self.label6.TabIndex := 1;
@@ -313,7 +312,7 @@ procedure InitializeComponent;
         // textBox6
         // 
         self.textBox6.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.textBox6.Location := new System.Drawing.Point(150, 263);
+        self.textBox6.Location := new System.Drawing.Point(150, 279);
         self.textBox6.Name := 'textBox6';
         self.textBox6.Size := new System.Drawing.Size(122, 22);
         self.textBox6.TabIndex := 15;
@@ -332,7 +331,7 @@ procedure InitializeComponent;
         // label8
         // 
         self.label8.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.label8.Location := new System.Drawing.Point(12, 261);
+        self.label8.Location := new System.Drawing.Point(12, 277);
         self.label8.Name := 'label8';
         self.label8.Size := new System.Drawing.Size(132, 20);
         self.label8.TabIndex := 1;
@@ -341,7 +340,7 @@ procedure InitializeComponent;
         // 
         // textBox7
         // 
-        self.textBox7.Location := new System.Drawing.Point(12, 369);
+        self.textBox7.Location := new System.Drawing.Point(12, 385);
         self.textBox7.Multiline := true;
         self.textBox7.Name := 'textBox7';
         self.textBox7.ReadOnly := true;
@@ -352,7 +351,7 @@ procedure InitializeComponent;
         // 
         // checkBox6
         // 
-        self.checkBox6.Location := new System.Drawing.Point(118, 229);
+        self.checkBox6.Location := new System.Drawing.Point(118, 245);
         self.checkBox6.Name := 'checkBox6';
         self.checkBox6.Size := new System.Drawing.Size(13, 13);
         self.checkBox6.TabIndex := 11;
@@ -362,7 +361,7 @@ procedure InitializeComponent;
         // 
         // checkBox7
         // 
-        self.checkBox7.Location := new System.Drawing.Point(118, 246);
+        self.checkBox7.Location := new System.Drawing.Point(118, 262);
         self.checkBox7.Name := 'checkBox7';
         self.checkBox7.Size := new System.Drawing.Size(13, 13);
         self.checkBox7.TabIndex := 12;
@@ -372,7 +371,7 @@ procedure InitializeComponent;
         // 
         // checkBox8
         // 
-        self.checkBox8.Location := new System.Drawing.Point(248, 229);
+        self.checkBox8.Location := new System.Drawing.Point(248, 245);
         self.checkBox8.Name := 'checkBox8';
         self.checkBox8.Size := new System.Drawing.Size(13, 13);
         self.checkBox8.TabIndex := 13;
@@ -383,7 +382,7 @@ procedure InitializeComponent;
         // label14
         // 
         self.label14.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.label14.Location := new System.Drawing.Point(18, 225);
+        self.label14.Location := new System.Drawing.Point(18, 241);
         self.label14.Name := 'label14';
         self.label14.Size := new System.Drawing.Size(94, 17);
         self.label14.TabIndex := 7;
@@ -393,7 +392,7 @@ procedure InitializeComponent;
         // label15
         // 
         self.label15.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.label15.Location := new System.Drawing.Point(18, 242);
+        self.label15.Location := new System.Drawing.Point(18, 258);
         self.label15.Name := 'label15';
         self.label15.Size := new System.Drawing.Size(94, 17);
         self.label15.TabIndex := 7;
@@ -403,7 +402,7 @@ procedure InitializeComponent;
         // label16
         // 
         self.label16.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.label16.Location := new System.Drawing.Point(148, 225);
+        self.label16.Location := new System.Drawing.Point(148, 241);
         self.label16.Name := 'label16';
         self.label16.Size := new System.Drawing.Size(94, 17);
         self.label16.TabIndex := 7;
@@ -412,7 +411,7 @@ procedure InitializeComponent;
         // 
         // checkBox9
         // 
-        self.checkBox9.Location := new System.Drawing.Point(248, 246);
+        self.checkBox9.Location := new System.Drawing.Point(248, 262);
         self.checkBox9.Name := 'checkBox9';
         self.checkBox9.Size := new System.Drawing.Size(13, 13);
         self.checkBox9.TabIndex := 14;
@@ -423,55 +422,44 @@ procedure InitializeComponent;
         // label17
         // 
         self.label17.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.label17.Location := new System.Drawing.Point(148, 242);
+        self.label17.Location := new System.Drawing.Point(148, 258);
         self.label17.Name := 'label17';
         self.label17.Size := new System.Drawing.Size(94, 17);
         self.label17.TabIndex := 7;
         self.label17.Text := 'Пустая строка';
         self.label17.TextAlign := System.Drawing.ContentAlignment.MiddleCenter;
         // 
-        // label18
-        // 
-        self.label18.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.label18.Location := new System.Drawing.Point(12, 198);
-        self.label18.Name := 'label18';
-        self.label18.Size := new System.Drawing.Size(100, 20);
-        self.label18.TabIndex := 20;
-        self.label18.Text := 'Разделители:';
-        self.label18.TextAlign := System.Drawing.ContentAlignment.MiddleCenter;
-        // 
         // textBox8
         // 
         self.textBox8.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.textBox8.Location := new System.Drawing.Point(118, 196);
+        self.textBox8.Location := new System.Drawing.Point(12, 216);
         self.textBox8.Name := 'textBox8';
-        self.textBox8.Size := new System.Drawing.Size(74, 22);
+        self.textBox8.Size := new System.Drawing.Size(127, 22);
         self.textBox8.TabIndex := 21;
         // 
         // label19
         // 
         self.label19.Font := new System.Drawing.Font('Microsoft Sans Serif', 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.label19.Location := new System.Drawing.Point(12, 196);
+        self.label19.Location := new System.Drawing.Point(12, 193);
         self.label19.Name := 'label19';
-        self.label19.Size := new System.Drawing.Size(100, 20);
+        self.label19.Size := new System.Drawing.Size(260, 20);
         self.label19.TabIndex := 20;
-        self.label19.Text := 'Посл. обработ.:';
+        self.label19.Text := 'После обработки (группы, скобки):';
         self.label19.TextAlign := System.Drawing.ContentAlignment.MiddleCenter;
         // 
         // textBox9
         // 
         self.textBox9.Font := new System.Drawing.Font('Microsoft Sans Serif', 9.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (System.Byte(204)));
-        self.textBox9.Location := new System.Drawing.Point(198, 196);
+        self.textBox9.Location := new System.Drawing.Point(145, 216);
         self.textBox9.Name := 'textBox9';
-        self.textBox9.Size := new System.Drawing.Size(74, 22);
+        self.textBox9.Size := new System.Drawing.Size(127, 22);
         self.textBox9.TabIndex := 22;
         // 
         // Form1
         // 
-        self.ClientSize := new System.Drawing.Size(284, 421);
+        self.ClientSize := new System.Drawing.Size(284, 433);
         self.Controls.Add(self.textBox9);
         self.Controls.Add(self.label19);
-        self.Controls.Add(self.label18);
         self.Controls.Add(self.textBox8);
         self.Controls.Add(self.label16);
         self.Controls.Add(self.label17);
